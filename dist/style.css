@@ -1,0 +1,77 @@
+.restaurant-name {
+    font-size: 70px;
+    text-align: center;
+    color: black;
+    font-family: "Noto Serif JP";
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.nav-bar {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+}
+.nav-bar li{
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Tinos";
+    padding: 0 5px 5px 5px;
+    border-bottom: 1px solid white;
+}
+
+.nav-bar li:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.menu {
+    margin: 0 10px;
+}
+
+.restaurant-pic {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 70px;
+}
+
+.menu-pic {
+    display: block;
+    margin: 40px auto;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 150px;
+    font-family: "Noto Serif JP";
+    font-size: 30px;
+}
+.restaurant-description,
+.restaurant-subheading {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+footer {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
